@@ -1,0 +1,339 @@
+@charset "utf-8";
+
+/* ---------------------------------- */
+
+@media all and (max-width:1300px){
+html{font-size: 14px;}
+header #logo{background-size: 80%;}
+#mainmenu{width:680px;}
+#mainmenu li{
+    width:110px;
+    padding:10px 10px;
+}
+#mainmenu li a{
+    font-size: 14px;
+}
+#left_menu li a{
+    font-size: 13px;
+}
+#left_menu{-border:1px solid blue; width:100px; height:60px; position:relative; top:0px; left:40px;}
+#right_menu{-border:1px solid hotpink; width:60px; height:50px; position: relative; top:0px;}
+#left_menu li{
+    margin-right:10%;
+}
+#right_menu li{
+    margin-right:10%;
+}
+#right_menu li a{
+    font-size: 13px;
+}
+
+/* submenu */
+
+#left_menu .fa{
+    display:none;
+}
+#submenu{
+    display:none;
+}
+
+/* txt */
+
+#txt{
+    width:100%;
+    height:310px;
+    -border:1px solid blue;
+}
+#txt a{
+    display: block;
+    color:#000;
+}
+.txt_in{
+    width:70%;
+    height:80%;
+    -border:1px solid blue;
+    margin:0 auto;
+    text-align: center;
+    margin-top:50px;
+}
+.txt_in h2{
+    font-size: 28px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    margin-bottom:20px;
+}
+.txt_in p{
+    width:70%;
+    margin:0 auto;
+    font-size: 20px;
+    font-family:'EB Garamond' ;
+    font-weight: 300;
+}
+.txt_in h3{
+    width:150px;
+    height:40px;
+    font-size: 12px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+/* sect */
+
+#sect{
+    width:100%;
+    height:450px;
+
+    text-align: center;
+    -border:1px solid red;
+    margin-bottom:20px;
+}
+.box_in{
+    width:70%;
+    height:400px;
+    -border:1px solid red;
+    margin:0 auto;
+}
+.box{
+    width:50%;
+    height:100%;
+
+    -border:1px solid orange;
+}
+.box:last-child{
+    background: url("../image/Vos-Publications.jpg") center center no-repeat;
+    background-size: cover;
+}
+.box h2{
+    font-size: 28px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    margin-bottom:20px;
+    padding-top:110px;
+}
+.box p{
+    width:70%;
+    font-size: 13px;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    margin:0 auto;
+    padding-bottom: 40px;
+}
+.box h3{
+    width:150px;
+    height:40px;
+    font-size: 12px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+/* cont */
+
+#cont1{
+    width:80%;
+    height:380px;
+    -border:1px solid red;
+    margin:0 auto;
+    padding-bottom:15px;
+    text-align: center;
+}
+.cont_in{
+    width:100%;
+    height:100%;
+    -border:1px solid red;
+}
+.cont_in div{float:left;}
+.num1{
+    width:70%;
+    height:100%;
+    background:url("../image/1760x644_.jpg") center center no-repeat;
+    background-size: cover;
+    margin-right:1.5%;
+}
+.num2{
+    width:28.5%;
+    height:100%;
+    background:url("../image/CARRE-DESKTOP-FINANCE.jpg") center center no-repeat;
+    background-size: cover;
+}
+.num1 h2{
+    font-size: 30px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    margin-bottom:50px;
+    padding-top:80px;
+}
+.num1 p{
+    width:55%;
+    font-size: 13px;
+    font-family: 'Noto Sans';
+    font-weight: 300;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+.num1 h3{
+    width:150px;
+    height:40px;
+    font-size: 12px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:30px;
+}
+.num2 h2{
+    font-size: 28px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    margin-bottom:60px;
+    padding-top:30px;
+}
+.num2 .middle{
+    font-size: 45px;
+    font-family: 'Noto Sans';
+    font-weight: 600;
+}
+.num2 p{
+    font-size: 18px;
+    font-family: 'Noto Sans';
+    font-weight: 300;
+    padding-top:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* ---------------------------------- */
+
+@media all and (max-width:900px){
+html{font-size: 13px;}
+
+#mainmenu{
+    width:320px;
+    height:100px;
+    -border:1px solid red;
+}
+#mainmenu li{
+    width:100px;
+    padding:5px 5px;
+    -border:1px solid orange;
+}
+#mainmenu li a{
+    font-size: 11px;
+    -border:1px solid gray;
+    padding:10px 10px;
+}
+#left_menu li a{
+    font-size: 11px;
+}
+#left_menu{-border:1px solid blue; width:100px; height:60px; position:relative; top:0px; left:40px;}
+#right_menu{-border:1px solid hotpink; width:60px; height:50px; position: relative; top:0px; right:15px;}
+#left_menu li{
+    margin-right:10%;
+}
+#right_menu li{
+    margin-right:10%;
+}
+#right_menu li a{
+    font-size: 11px;
+}
+
+/* submenu */
+
+#left_menu .fa{
+    display:none;
+}
+#submenu{
+    display:none;
+}
+
+/* main */
+#main{
+    height:550px;
+}
+#main .cover{
+    height:550px;
+}
+.main_in{
+    top:220px;
+    left:calc(50% - 20vw);
+}
+.main_in h2{
+    font-size: 30px;
+    margin-bottom:30px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

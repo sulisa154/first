@@ -1,0 +1,788 @@
+@charset "utf-8";
+
+/* ---------------------------------- */
+
+@media all and (max-width:1300px){
+html{font-size: 14px;}
+header #logo{background-size: 80%;}
+#mainmenu{width:680px;}
+#mainmenu li{
+    width:110px;
+    padding:10px 10px;
+}
+#mainmenu li a{
+    font-size: 14px;
+}
+#left_menu li a{
+    font-size: 13px;
+}
+#left_menu{-border:1px solid blue; width:100px; height:60px; position:relative; top:0px; left:40px;}
+#right_menu{-border:1px solid hotpink; width:60px; height:50px; position: relative; top:0px;}
+#left_menu li{
+    margin-right:10%;
+}
+#right_menu li{
+    margin-right:10%;
+}
+#right_menu li a{
+    font-size: 13px;
+}
+
+/* submenu */
+
+#left_menu .fa{
+    display:none;
+}
+#submenu{
+    display:none;
+}
+
+/* txtbox */
+
+#txtbox{
+    width:80%;
+    height:270px;
+    background-color: #ede4dc;
+    margin:0 auto;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+#txtbox h2{
+    font-size:30px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    padding-top:30px;
+}
+#txtbox p{
+    font-size: 13px;
+    font-family:'Noto Sans' ;
+    font-weight: 400;
+    width:60%;
+    margin:0 auto;
+    margin-top:30px;
+}
+#txtbox h3{
+    width:150px;
+    height:40px;
+    font-size: 12px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+/* road */
+#road{
+    width:80%;
+    height:380px;
+    margin:0 auto;
+    -border:1px solid red;
+}
+#road a{
+    display: block;
+    -width:100%;
+    height:100%;
+}
+#road h2{
+    font-size:27px;
+    font-weight: 350;
+    margin-bottom:20px;
+}
+#road p{
+    font-size: 13px;
+    font-family:'Noto Sans' ;
+    font-weight: 300;
+    width:75%;
+    margin-bottom: 30px;
+}
+.road_in{
+    width:100%;
+    height:220px;
+    -border:1px solid red;
+}
+.road_con{
+    width:30%;
+    height:100%;
+    -border:2px solid orange;
+    margin-right:1%;
+    float:left;
+}
+.road_in div:last-child{
+    margin-right:0px;
+}
+.road_con h3{
+    font-size:26px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    padding-top:90px;
+}
+
+
+/* cont */
+#cont{
+    width:80%;
+    height:300px;
+    margin:0 auto;
+
+    background: url("../image/40-rue-de-Sevres-vaults.jpg")  no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    color:#fff;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+#cont h2{
+    font-size: 32px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    margin-bottom:20px;
+    padding-top:40px;
+}
+#cont p{
+    width:70%;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+#cont h3{
+    width:150px;
+    height:40px;
+    font-size: 12px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+/* sect2 */
+
+#sect2{
+    width:100%;
+    height:520px;
+
+    text-align: center;
+    -border:1px solid red;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.sect2_in{
+    width:70%;
+    height:100%;
+    -border:1px solid red;
+    margin:0 auto;
+}
+.sect2_in .title{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom:20px;
+    padding-top:25px;
+}
+.sect2_in .sub{
+    width:80%;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.box_in{
+    width:100%;
+    height:320px;
+    -border:1px solid red;
+
+}
+.box_in div{
+    float:left;
+}
+.box{
+    width:50%;
+    height:100%;
+
+    -border:1px solid orange;
+}
+.box h2{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom:20px;
+    padding-top:85px;
+}
+.box p{
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.box h3{
+    width:150px;
+    height:40px;
+    font-size: 12px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+/* ---------------------------------- */
+
+@media all and (max-width:900px){
+html{font-size: 13px;}
+
+#mainmenu{
+    width:320px;
+    height:100px;
+    -border:1px solid red;
+}
+#mainmenu li{
+    width:100px;
+    padding:5px 5px;
+    -border:1px solid orange;
+}
+#mainmenu li a{
+    font-size: 11px;
+    -border:1px solid gray;
+    padding:10px 10px;
+}
+#left_menu li a{
+    font-size: 11px;
+}
+#left_menu{-border:1px solid blue; width:100px; height:60px; position:relative; top:0px; left:40px;}
+#right_menu{-border:1px solid hotpink; width:60px; height:50px; position: relative; top:0px; right:15px;}
+#left_menu li{
+    margin-right:10%;
+}
+#right_menu li{
+    margin-right:10%;
+}
+#right_menu li a{
+    font-size: 11px;
+}
+
+/* submenu */
+
+#left_menu .fa{
+    display:none;
+}
+#submenu{
+    display:none;
+}
+
+/* main */
+#main{
+    height:550px;
+}
+#main .cover{
+    height:550px;
+}
+.main_in{
+    top:220px;
+    left:calc(50% - 20vw);
+}
+.main_in h2{
+    font-size: 30px;
+    margin-bottom:30px;
+}
+
+/* txtbox */
+
+#txtbox{
+    width:90%;
+    height:220px;
+    background-color: #ede4dc;
+    margin:0 auto;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#txtbox h2{
+    font-size:24px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    padding-top:20px;
+}
+#txtbox p{
+    font-size: 12px;
+    font-family:'Noto Sans' ;
+    font-weight: 400;
+    width:70%;
+    margin:0 auto;
+    margin-top:20px;
+}
+#txtbox h3{
+    width:125px;
+    height:33px;
+    font-size: 12px;
+    padding-top:7px;
+    margin-top:20px;
+}
+
+/* road */
+#road{
+    width:90%;
+    height:340px;
+    margin:0 auto;
+    -border:1px solid red;
+}
+#road a{
+    display: block;
+    -width:100%;
+    height:100%;
+}
+#road h2{
+    font-size:25px;
+    font-weight: 350;
+    margin-bottom:15px;
+}
+#road p{
+    font-size: 12px;
+    font-family:'Noto Sans' ;
+    font-weight: 300;
+    width:75%;
+    margin-bottom: 20px;
+}
+.road_in{
+    width:100%;
+    height:190px;
+    -border:1px solid red;
+}
+.road_con{
+    width:30%;
+    height:100%;
+    -border:2px solid orange;
+    margin-right:1%;
+    float:left;
+}
+.road_in div:last-child{
+    margin-right:0px;
+}
+.road_con h3{
+    font-size:23px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    padding-top:80px;
+}
+
+/* cont */
+#cont{
+    width:90%;
+    height:240px;
+    margin:0 auto;
+
+    background: url("../image/40-rue-de-Sevres-vaults.jpg")  no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    color:#fff;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+#cont h2{
+    font-size: 28px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    margin-bottom:20px;
+    padding-top:25px;
+}
+#cont p{
+    width:80%;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+#cont h3{
+    width:125px;
+    height:33px;
+    font-size: 12px;
+    padding-top:7px;
+    margin-top:20px;
+}
+
+/* sect2 */
+
+#sect2{
+    width:100%;
+    height:480px;
+
+    text-align: center;
+    -border:1px solid red;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.sect2_in{
+    width:80%;
+    height:100%;
+    -border:1px solid red;
+    margin:0 auto;
+}
+.sect2_in .title{
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom:20px;
+    padding-top:15px;
+}
+.sect2_in .sub{
+    width:90%;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.box_in{
+    width:100%;
+    height:280px;
+    -border:1px solid red;
+
+}
+.box_in div{
+    float:left;
+}
+.box{
+    width:50%;
+    height:100%;
+}
+.box h2{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom:20px;
+    padding-top:90px;
+}
+.box p{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.box h3{
+    width:125px;
+    height:33px;
+    font-size: 12px;
+    padding-top:7px;
+    margin-top:20px;
+}
+
+/* footer */
+.f_sns{
+    width:280px;
+    height:auto;
+    margin:0 auto;
+    -border:1px solid orange;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.f_list li{
+    margin-top:17px;
+    margin-right:12px;
+}
+.f_list li:first-child{
+    margin-left:20px;
+}
+.f_list li a{
+    font-size: 13px;
+}
+.f_list{
+    width:580px;
+    height:62px;
+}
+footer address{
+    font-size: 14px;
+    margin-top:40px;
+}
+
+}
+
+/* ---------------------------------- */
+
+@media all and (max-width:600px){
+html{font-size: 11px;}
+#mainmenu {display: none;}
+.join{display:none;}
+#left_menu .price{display:none;}
+#left_menu .en{display:none;}
+
+#left_menu li a{
+    font-size: 12px;
+}
+#left_menu{-border:1px solid blue; width:100px; height:60px; position:relative; top:0px; left:40px;}
+#right_menu{-border:1px solid hotpink; width:60px; height:50px; position: relative; top:0px;}
+#left_menu li{
+    margin-right:10%;
+}
+#right_menu li{
+    margin-right:10%;
+}
+#right_menu li a{
+    font-size: 12px;
+}
+
+/* main */
+#main{
+    height:500px;
+}
+#main .cover{
+    height:500px;
+}
+.main_in{
+    top:180px;
+    left:calc(50% - 20vw);
+}
+.main_in h2{
+    font-size: 23px;
+    margin-bottom:25px;
+}
+
+/* txtbox */
+
+#txtbox{
+    width:90%;
+    height:180px;
+    background-color: #ede4dc;
+    margin:0 auto;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#txtbox h2{
+    font-size:20px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    padding-top:20px;
+}
+#txtbox p{
+    font-size: 10px;
+    font-family:'Noto Sans' ;
+    font-weight: 400;
+    width:80%;
+    margin:0 auto;
+    margin-top:15px;
+}
+#txtbox h3{
+    width:125px;
+    height:31px;
+    font-size: 10px;
+    padding-top:7px;
+    margin-top:15px;
+}
+
+/* road */
+#road{
+    width:90%;
+    height:260px;
+    margin:0 auto;
+    -border:1px solid red;
+}
+#road a{
+    display: block;
+    -width:100%;
+    height:100%;
+}
+#road h2{
+    font-size:20px;
+    font-weight: 350;
+    margin-bottom:15px;
+}
+#road p{
+    font-size: 10px;
+    font-family:'Noto Sans' ;
+    font-weight: 300;
+    width:80%;
+    margin-bottom: 20px;
+}
+.road_in{
+    width:100%;
+    height:150px;
+    -border:1px solid red;
+}
+.road_con{
+    width:30%;
+    height:100%;
+    -border:2px solid orange;
+    margin-right:1%;
+    float:left;
+}
+.road_in div:last-child{
+    margin-right:0px;
+}
+.road_con h3{
+    font-size:19px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    padding-top:60px;
+}
+
+/* cont */
+#cont{
+    width:90%;
+    height:200px;
+    margin:0 auto;
+
+    background: url("../image/40-rue-de-Sevres-vaults.jpg")  no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    color:#fff;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+#cont h2{
+    font-size: 22px;
+    font-family:'EB Garamond' ;
+    font-weight: 400;
+    margin-bottom:20px;
+    padding-top:15px;
+}
+#cont p{
+    width:85%;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+#cont h3{
+    width:125px;
+    height:31px;
+    font-size: 10px;
+    padding-top:7px;
+    margin-top:15px;
+}
+
+/* sect2 */
+
+#sect2{
+    width:100%;
+    height:420px;
+
+    text-align: center;
+    -border:1px solid red;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.sect2_in{
+    width:80%;
+    height:100%;
+    -border:1px solid red;
+    margin:0 auto;
+}
+.sect2_in .title{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom:15px;
+    padding-top:15px;
+}
+.sect2_in .sub{
+    width:90%;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.box_in{
+    width:100%;
+    height:280px;
+    -border:1px solid red;
+
+}
+.box_in div{
+    -float:left;
+}
+.box{
+    width:100%;
+    height:50%;
+}
+.box h2{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom:10px;
+    padding-top:20px;
+}
+.box p{
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.box h3{
+    width:125px;
+    height:31px;
+    font-size: 10px;
+    padding-top:7px;
+    margin-top:15px;
+}
+
+
+/* footer */
+footer{
+    height:300px;
+}
+.footer_in{
+    height:300px;
+}
+.f_sns{
+    width:240px;
+    height:auto;
+    margin:0 auto;
+    -border:1px solid orange;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.f_sns .fa{font-size: 14px;}
+.f_list li{
+    margin-top:15px;
+    margin-right:10px;
+}
+.f_list li:first-child{
+    margin-left:0px;
+}
+.f_list li a{
+    font-size: 11.5px;
+}
+.f_list{
+    width:280px;
+    height:100px;
+}
+footer address{
+    font-size: 13px;
+    margin-top:30px;
+}
+
+/* submenu */
+
+#left_menu .fa{
+    display:block;
+    font-size: 15px;
+}
+#submenu{
+    display:none;
+    width:100%;
+    height:360px;
+    background-color: rgba(0,0,0,0.85);
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:10;
+}
+#submenu a{
+    display: block;
+    color:#fff;
+    margin-top:3px;
+}
+#submenu li{
+    float:left;
+    width:100%;
+    height:45px;
+    -border:1px solid red;
+    text-align: center;
+    padding: 10px;
+}
+#submenu li:nth-child(1){
+    margin-top:20px;
+}
+#submenu li .fa-close{
+    font-size:17px;
+}
+#submenu li:hover{
+    background-color: #ede4dc;
+}
+#submenu li:hover a{
+    color:#000;
+}
+
+/* */
+
+}}
