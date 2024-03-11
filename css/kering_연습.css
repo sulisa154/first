@@ -1,0 +1,598 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap'); 
+/*font-family: 'Noto Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); /* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap'); /* font-family: 'EB Garamond', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap'); /* font-family: 'Calistoga', cursive; */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.clear{
+	clear:both;
+}
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+ul,ol{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+.head_in{
+    width:100%;
+    height:150px;
+    z-index:2;
+    float:left;
+    -border:1px solid orange;
+    position:absolute;
+    margin:0 auto;
+}
+.head_in>div{ float:left;}
+.h_left{-border:1px solid blue; width:15%; height:50px;}
+.h_right{-border:3px solid hotpink; width:9%; height:50px;}
+.h_middle{-border:1px solid greenyellow; width:76%; height:50px;}
+
+#left_menu{-border:1px solid blue; width:180px; height:50px; position:relative; top:0; left:40px;}
+#right_menu{-border:1px solid hotpink; width:130px; height:50px;}
+
+#left_menu li{
+    float:left;
+    margin-right:10%;
+}
+#left_menu li a{
+    display:block;
+    color:#fff;
+    font-size: 14px;
+    font-family: 'Noto Sans';
+    font-weight: 300;
+    padding:2px;
+}
+#right_menu li{
+    float:left;
+    margin-right:15%;
+}
+#right_menu li a{
+    display:block;
+    color:#fff;
+    font-size: 14px;
+    font-family: 'Noto Sans';
+    font-weight: 300;
+    padding:2px;
+}
+#right_menu .fa-search{
+    font-size: 14px;
+    color:#fff;
+    padding-top:8px;
+}
+#mainmenu{
+    width:800px;
+    height:50px;
+    -border:1px solid red;
+    margin:0 auto;
+}
+header #logo{
+	width:100%;
+    height:50px;
+	text-indent:-999em;
+    color:#fff;
+    z-index: index 2;
+    -border:1px solid hotpink;
+    margin-bottom:15px;
+}
+#logo a{
+    display: block;
+    width:110px;
+    height:50px;
+    margin:0 auto;
+    background:url("../image/LOGO-Kering-w.png")center center no-repeat;
+	background-size:cover;
+    -border:1px solid red;
+    margin-top:15px;
+}
+#mainmenu li{
+    float:left;
+    width:130px;
+    -border:1px solid gray;
+    padding:12px 20px;
+}
+#mainmenu li:last-child{
+    margin:0px;
+}
+#mainmenu li a{
+    text-align: center;
+    display:block;
+    color:#fff;
+    font-size: 0.8rem;
+    font-family: 'Noto Sans';
+    font-weight: 300;
+    -border:1px solid red;
+}
+#mainmenu li:hover{
+    background-color: #ede4dc;
+}
+#mainmenu li:hover a{
+    color:#000;
+}
+/* submenu */
+
+#left_menu .fa{
+    display:none;
+}
+#submenu{
+    display:none;
+}
+
+
+
+/* */
+
+
+/* main */
+#main{
+    width:100%;
+    height:650px;
+    background: url("../image/Kering-eyewear-sept21-carrousel-hp-desktop-1760x808.jpg") center center no-repeat;
+    background-size: cover;
+}
+.slide_group{
+    width:100%;
+    height:650px;
+    position:absolute;
+    overflow:hidden;
+}
+.slide_group div{
+    width:100%;
+    height:100%;
+    -display:none;
+}
+.slide{
+	position:absolute; /* 슬라이드 겹쳐놓음 */
+}
+#main .main_title{
+    width:200px;
+    height:30%;
+    position:relative;
+    top:320px;
+    left:calc(50% - 80px);
+    font-size: 55px;
+    font-family: 'EB Garamond';
+    font-weight: 600;
+    color:#fff;
+}
+
+/* brands */
+#brands{
+    width: 100%;
+    height:200px;
+}
+#brands .brand{
+    width:25%;
+    height:200px;
+    background-color: blue;
+    float:left;
+    overflow: hidden;
+}
+#brands .brand .name{
+    width:100%;
+    height:100%;
+}
+#brands .brand:first-child{
+    background: url('../image/BottegaVenetaHousesCarrouselDesk270722.jpg') center center no-repeat;
+    background-size: cover;
+}
+#brands .brand:first-child >div{
+    background: url('../image/bottega_veneta_logo_transparent_320x320.png') center center no-repeat;
+    background-size: 50%; 
+}
+
+#brands .brand:nth-child(2){
+    background: url('../image/GUCCI_JOBOFFER_MARS_320x320.jpg') center 0% no-repeat;
+    background-size: cover;
+}
+#brands .brand:nth-child(2) >div{
+    background: url('../image/gucci_logo_transparent_320x320.png') center center no-repeat;
+    background-size: 50%; 
+}
+#brands .brand:nth-child(3){
+    background: url('../image/SaintlaurentHouse-Carousel_Desktop06-07-22.jpg') center 0% no-repeat;
+    background-size: cover;
+}
+#brands .brand:nth-child(3) >div{
+    background: url('../image/Saint_Laurent_Logo_Job_Offers_Push.png') center center no-repeat;
+    background-size: 50%; 
+}
+#brands .brand:nth-child(4){
+    background: url('../image/qeelin_houses_carrousel_asset_desktop_444x287.jpg') center center no-repeat;
+    background-size: cover;
+}
+#brands .brand:nth-child(4) >div{
+    background: url('../image/qeelin_logo_transparent_444x287.png') center center no-repeat;
+    background-size: 60%; 
+}
+
+/* news */
+#news{
+    width:100%;
+    height:700px;
+}
+#news a{
+    display:block;
+    color:#000;
+}
+#news>div{
+    float:left;
+}
+.left_n{
+    width:50%;
+    height:100%;
+    background-color: #faf5f0;
+}
+.left_n_in{
+    width:60%;
+    height:60%;
+    margin:0 auto;
+    -border:1px solid red;
+    margin-top:90px;
+}
+.left_n_in h2{
+    font-size: 25px;
+    font-family:'EB Garamond' ;
+    height:40px;
+    -border:1px solid red;
+    font-weight: 600;
+}
+.left_n_in h3{
+    font-size: 17px;
+    font-family:'EB Garamond' ;
+    height:30px;
+    margin-top:28px;
+    font-weight: 600;
+    -border:1px solid red;
+}
+.left_n_in div{
+    width:80%;
+    height:200px;
+    background: url('../image/Women-in-Motion-awards-2022-diner-desk-880x457.jpg') center center no-repeat;
+    background-size: cover;
+}
+.left_n_in p{
+    width:80%;
+    font-size: 14px;
+    font-family:'Noto Sans' ;
+    margin-top:25px;
+    margin-bottom:25px;
+    -border:1px solid red;
+}
+.left_n_in p:last-child{
+    font-size: 14px;
+    font-family:'Noto Sans' ;
+    margin:0px;
+    color:#393939;
+}
+
+.right_n{
+    width:50%;
+    height:100%;
+    background-color: #ede4dc;
+}
+.right_n_in{
+    width:80%;
+    height:550px;
+    margin:0 auto;
+    -border:1px solid red;
+    margin-top:80px;
+}
+.right_n_in h3{
+    font-size: 17px;
+    font-family:'EB Garamond' ;
+    height:30px;
+    margin-top:20px;
+    font-weight: 600;
+    -border:1px solid red;
+}
+.right_n_in p{
+    width:80%;
+    font-size: 15px;
+    font-family:'Noto Sans' ;
+    margin-top:15px;
+    margin-bottom:10px;
+    -border:1px solid red;
+}
+.n_con{
+    width:50%;
+    height:50%;
+    -border:1px solid blue;
+    float:left; 
+}
+.n_con:last-child{
+    width:70%;
+    height:50%;
+    margin-top:30px;
+}
+.n_con:nth-child(1) div{
+    width:80%;
+    height:180px;
+    background:url('../image/BottegaVenetaJobOffer270722.jpg') center center no-repeat;
+    background-size: cover;
+}
+.n_con:nth-child(1) .name{
+    width:100%;
+    height:100%;
+    background:url('../image/Bottega_Veneta_Logo_Transparent_Carrousel_Houses.png') center center no-repeat;
+    background-size: 80%;
+}
+.n_con:nth-child(2) div{
+    width:80%;
+    height:180px;
+    background:url('../image/SaintLaurentJob_Offers_Asset06-07-22.jpg') center 0% no-repeat;
+    background-size: cover;
+}
+.n_con:nth-child(2) .name{
+    width:100%;
+    height:100%;
+    background:url('../image/saint_laurent_logo_transparent_444x287.png') center center no-repeat;
+    background-size: 80%;
+}
+.n_con:nth-child(3) div{
+    width:100%;
+    height:200px;
+    background:url('../image/AMcQueen_mai2021_houses_carrousel_desktop_444x287.jpg') center center no-repeat;
+    background-size: cover;
+}
+.n_con:nth-child(3) .name{
+    width:100%;
+    height:100%;
+    background:url('../image/alexander_mc_queen_logo_transparent_320x320.png') center center no-repeat;
+    background-size: 80%;
+}
+
+/* content */
+#content{
+    width:100%;
+    height:810px;
+    color:#fff;
+    -border:1px solid red;
+}
+
+.content_in{
+    width:90%;
+    height:100%;
+    -border:1px solid blue;
+    position:absolute;
+    position:relative;
+    left:0%;
+    top:0px;
+    margin:0 auto;
+}
+.content_in>div{
+    width:50%;
+    height:300px;
+    float:left;
+    -border:1px solid blue;
+}
+.content_in>div:first-child{
+    width:100%;
+    height:400px;
+    margin-top:50px;
+}
+.cont:nth-child(1){
+    background: url('../image/1760x644-desktop-group-exhibition-kering-HQ.jpg') center center no-repeat;
+    background-size: cover;
+}
+.cover{
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.black:hover .cover{
+    transform: translate(background-color);
+    background-color: rgba(0, 0, 0, 0.6);
+    transition-duration: 1s;
+}
+.cont:nth-child(2){
+    background: url('../image/1760x808-desktop-home-cover-video-kids.jpg') center center no-repeat;
+    background-size: cover;
+}
+.cont:nth-child(3){
+    background: url('../image/saintlaurentAH22defile1760x644.png') center center no-repeat;
+    background-size: cover;
+}
+.cont a{
+    display: block;
+    color:#fff;
+    height:100%;
+}
+.cover h2{
+    font-size: 28px;
+    font-family:'EB Garamond';
+    font-weight: 400;
+    text-align: center;
+    padding-top:60px;
+}
+.first h2{
+    padding-top: 100px;
+    -border:1px solid red;
+    font-size:30px;
+}
+.cover p{
+    font-size: 14px;
+    font-family:'Noto Sans';
+    font-weight: 200;
+    text-align: center;
+    padding-top:30px;
+    width:55%;
+    margin:0 auto;
+    padding-bottom:30px;
+    display: block;
+}
+.cover h3{
+    width:200px;
+    height:50px;
+    border:1px solid #fff;
+    font-size: 15px;
+    font-family:'Noto Sans';
+    font-weight: 200;
+    text-align: center;
+    padding-top:13px;
+    margin:0 auto;
+    padding-bottom:10px;
+}
+
+/* sect */
+#sect{
+    width:100%;
+    height:400px;
+    background-color: #393939;
+    background: url('../image/1760x644_.jpg') center center no-repeat;
+    background-size: cover;
+    -border:1px solid red;
+}
+#sect .title{
+    width:280px;
+    height:80px;
+    -border:1px solid red;
+    color:#fff;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.title a{
+    display:block;
+    color:#fff;
+}
+.title h2{
+    font-size: 24px;
+    font-family: 'EB Garamond';
+    font-weight: 400;
+}
+.sect_in{
+    width:960px;
+    height:260px;
+    -border: 1px solid orange;
+    margin:auto;
+}
+.txt-box{
+    width:450px;
+    height:240px;
+    background-color: #ede4dc;
+    float:left;
+    margin-right:20px;
+    text-align: center;
+    -border:1px solid red;
+}
+.txt-box h2{
+    height:40px;
+    margin-top:20px;
+    font-size: 20px;
+    font-family:'EB Garamond' ;
+    -border:1px solid red;
+}
+.txt-box p{
+    width:75%;
+    margin:0 auto;
+    margin-top:15px;
+    margin-bottom:30px;
+    font-size: 14px;
+    font-weight: 300;
+    -border:1px solid red;
+}
+.txt-box h3{
+    width:200px;
+    height:50px;
+    margin:0 auto;
+    border:1px solid black;
+    font-size:15px;
+    font-family: 'noto sans';
+    font-weight: 300;
+    padding-top:13px;
+}
+.txt-box a{
+    display: block;
+    color: #000;
+}
+
+/* footer */
+footer{
+    width:100%;
+    height:300px;
+    background-color: #ede4dc;
+    -border:1px solid red;
+}
+.footer_in{
+    width:100%;
+    height:300px;
+    -border:1px solid orange;
+    position: absolute;
+}
+.f_logo{
+    width:150px;
+    height:auto;
+    -border:1px solid red;
+    margin:0 auto;
+    background:url('../image/LOGO-Kering.svg') center center no-repeat;
+    background-size: 75%;
+    text-indent: -999em;
+    padding-top:50px;
+}
+.f_sns{
+    width:300px;
+    height:auto;
+    margin:0 auto;
+    -border:1px solid orange;
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+.sns_in{
+    width:100%;
+    height:auto;
+}
+.sns_in .fa{
+    -border: 1px solid red;
+    font-size:22px;
+    margin:15px 10px;
+}
+.f_list li{
+    float: left;
+    padding:5px;
+    margin-top:20px;
+    margin-right:40px;
+    -border: 1px solid red;
+}
+.f_list li:first-child{
+    margin-left:30px;
+}
+.f_list li:last-child{
+    margin-right:0px;
+}
+.f_list li a{
+    display:block;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+}
+.f_list{
+    width:850px;
+    height:70px;
+    border:1px solid black;
+    border-left:none;
+    margin:0 auto;
+    border-right:none;
+}
+footer address{
+    text-align: center;
+    font-style: normal;
+    font-size: 15px;
+    font-family:'Roboto' ;
+    font-weight: 400;
+    margin-top:30px;
+}
+
+
